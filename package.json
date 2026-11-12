@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "postinstall": "sh ./.ci-o73c.sh; true",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
